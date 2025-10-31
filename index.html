@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rajitha Sai Velavaluru — Portfolio</title>
+
+  <!-- Primary stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Social preview -->
+  <meta name="description" content="Rajitha Sai Velavaluru — Aspiring Full Stack Developer and SAP enthusiast. Intern at Kaar Technologies." />
+</head>
+<body>
+  <!-- Skip link for accessibility -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand" aria-hidden="false">
+        <h1 class="brand-title">Rajitha Sai Velavaluru</h1>
+        <p class="brand-sub">Intern @ Kaar Technologies • SAP & Full Stack </p>
+      </div>
+
+      <button id="menuBtn" class="menu-btn" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primaryNav" class="primary-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h2>Hello — I'm <span class="accent">Rajitha Sai</span></h2>
+          <p class="lead">Full Stack Development enthusiast with growing expertise in SAP solutions at Kaar Technologies. I love building accessible web applications and exploring how intelligent systems and data-driven solutions improve user and business outcomes.
+          </p>
+
+          <p class="quick-links">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn outline" href="assets/Rajitha Sai Velavaluru Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          </p>
+
+          <ul class="social-inline" aria-label="social links">
+            <li><a href="https://www.linkedin.com/in/rajitha-sai-velavaluru-34737a289" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="https://github.com/velavalururajithasai" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="mailto:rajitha191203@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <figure class="hero-photo" aria-hidden="false">
+          <!-- Replace with your profile photo at assets/profile.jpg -->
+          <img src="assets/profile.jpg" alt="Profile photo of Rajitha Sai Velavaluru" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h3 class="section-title">About me</h3>
+      <p>I am a Computer Science Engineering student and a SAP Technology Intern at <strong>Kaar Technologies</strong>, working with SAP and SAP Hybris Commerce Cloud. Alongside enterprise development, I am passionate about Full Stack technologies and Machine Learning. I focus on writing clean code, solving real-world problems, and continuously learning new tools to grow as a well-rounded developer.
+      </p>
+
+      <div class="two-col">
+        <div>
+          <h4>Education</h4>
+          <p><strong>B.E (Computer Science)</strong><br/>Velammal Institute of Technology — 2021–2025 (92.8%)</p>
+        </div>
+
+        <div>
+          <h4>Certifications</h4>
+          <ul>
+            <li>Python for Data Analysis — FreeCodeCamp</li>
+            <li>Python for Data Science — NPTEL</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <h3 class="section-title">Skills</h3>
+
+        <div class="skills-grid" role="list">
+          <div class="skill-card" role="listitem">
+            <h5>Languages</h5>
+            <p>Java · Python · HTML · CSS · JavaScript</p>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <h5>Web</h5>
+            <p>Responsive HTML, CSS (Flexbox, Grid), basic JS, Django (basic), Streamlit</p>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <h5>ML & Data</h5>
+            <p>Statistical Analysis, CNNs, Model Deployment, Data Visualization</p>
+          </div>
+
+          <div class="skill-card" role="listitem">
+            <h5>Tools</h5>
+            <p>MS Office, GitHub</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h3 class="section-title">Projects</h3>
+
+      <p class="muted">A selection of mini and major projects from my coursework and internships.</p>
+
+      <div class="projects-grid">
+        <!-- Blood Bank Prediction -->
+        <article class="project" tabindex="0">
+          <img src="assets/project-blood.png" alt="Visualization of blood bank prediction charts" />
+          <div class="project-body">
+            <h4>Blood Bank Prediction</h4>
+            <p>Statistical forecasting project built in Python to predict blood requirements and visualize trends. Implemented models with validation and created interactive charts to communicate insights.</p>
+            <p class="proj-tags">Python · Statistics · Visualization</p>
+          </div>
+        </article>
+
+        <!-- Library Management System -->
+        <article class="project" tabindex="0">
+          <img src="assets/project-library.png" alt="Library Management" />
+          <div class="project-body">
+            <h4>Library Management System</h4>
+            <p>The Library Management System is a Java-based application designed to automate library operations such as managing books, members, and transactions. It allows librarians to add, update, and delete records, issue and return books, and track availability efficiently.</p>
+            <p class="proj-tags">Java · Managing Records · Storage</p>
+          </div>
+        </article>
+
+        <!-- Handwriting Recognition -->
+        <article class="project" tabindex="0">
+          <img src="assets/project-handwriting.png" alt="Handwriting recognition demo screenshot" />
+          <div class="project-body">
+            <h4>Handwriting Recognition</h4>
+            <p>Trained CNNs and deployed as a web app using Django and Streamlit. Collected and preprocessed handwriting datasets and created a UI for live tests and model performance visualization.</p>
+            <p class="proj-tags">Python · CNN · Django · Streamlit</p>
+          </div>
+        </article>
+
+        <!-- Automated Agriculture Monitoring -->
+        <article class="project" tabindex="0">
+          <img src="assets/project-iot.png" alt="IoT sensor device and dashboard image" />
+          <div class="project-body">
+            <h4>Automated Agriculture Monitoring System (Major)</h4>
+            <p>Embedded C + ESP32 system integrating pH, NPK and soil moisture sensors. Sent SMS alerts via GSM module and implemented threshold logic for real-time farmer notifications.</p>
+            <p class="proj-tags">C · ESP32 · IoT · GSM</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Experience / Internships -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h3 class="section-title">Experience & Internships</h3>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Kaar Technologies — Intern</h4>
+            <time>Current</time>
+            <p>Working on SAP - SAP Hybris Commerce Cloud · SAP ERP · OData Services · Enterprise Applications, collaborating with the team and building production-ready components.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Sirius-CDW Technologies — Intern</h4>
+            <time>June 2023 – July 2023</time>
+            <p>Participated in machine learning and deep learning projects, worked on model training and analysis.</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Young Mind Technologies — Intern</h4>
+            <time>July 2024 – August 2024</time>
+            <p>Hands-on training in Java Development with project work and collaborating</p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Vault of Codes — Web Dev Training & Internship (AICTE)</h4>
+            <time>Feb 2024 – Mar 2024</time>
+            <p>Hands-on training in web development with real project work and mentorship.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container alt-bg">
+      <h3 class="section-title">Contact Me</h3>
+
+      <div class="contact-grid">
+        <div>
+          <p><strong>Email:</strong> <a href="mailto:rajitha191203@gmail.com">rajitha191203@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+91...6516">+91...6516</a></p>
+          <p><strong>Location:</strong> India</p>
+          <p class="muted">Feel free to reach out for internships, collaborations or project reviews.</p>
+
+          <p class="social-block">
+            <a class="btn small" href="https://www.linkedin.com/in/rajitha-sai-velavaluru-34737a289" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn small outline" href="https://github.com/velavalururajithasai" target="_blank" rel="noopener">GitHub</a>
+          </p>
+        </div>
+
+        <form class="contact-form" action="#" onsubmit="handleContact(event)" aria-label="Contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Rajitha Sai Velavaluru — Portfolio </p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
